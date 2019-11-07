@@ -1,0 +1,61 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(237,248,196);
+}
+
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: aqua;
+	padding: 50px;
+	margin: 15% auto;
+	width: 600px;
+	
+}
+
+.textarea{
+	margin: 10px;
+	padding: 10px;
+}
+
+.textarea input{
+	border-radius: 15px;
+	padding: 10px;
+	margin-left: 20px;
+	outline: none;
+}
+
+.textarea input[type="text"],input[type="password"]{
+	width: 250px
+}
+
+.textarea input[type="checkbox"]{
+	padding: 10px;
+	margin-left: 20px;
+}
+
+.textarea select{
+	padding: 5px;
+	margin-left:20px;
+	width: 200px
+
+}
+
+.textarea button{
+	border-radius: 20%;
+	background-color: #5FD9F7;
+	padding: 10px 20px;
+	color: white;
+	margin-left: 40%;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}

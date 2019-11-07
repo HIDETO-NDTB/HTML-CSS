@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	font-family: sans-serif;
+	background-color: #4870B2;
+	height: 80px;
+	
+}
+
+header h1 {
+	float: left;
+	color: white;
+	font-size: 40px;
+	padding-left: 370px;
+	margin-right: 120px;
+
+}
+
+.user {
+	float: left;
+	color: white;
+	padding-top: 10px;
+	
+}
+
+.user input {
+	padding: 9px 17px;
+	border-radius: 6px;
+}
+
+.user button {
+	margin-top: 20px;
+	padding: 7px 10px;
+	font-size: 15px;
+	border-radius: 6px;
+	background-color: #B8F8F4;
+}
+
+.left {
+	width: 550px;
+	height: 550px;
+	position: absolute;
+	top: 50;
+	left: 270px;
+}
+
+.contents {
+	width: 100%;
+	height: 620px;
+	background-color: #EAEDED;
+	font-family: sans-serif;
+}
+
+.right {
+	position: absolute;
+	top: 80px;
+	left: 850px;
+}
+
+.contents h1 {
+	font-size: 40px;
+}
+
+.contents p {
+	font-size: 20px;
+}
+
+.textarea input {
+	padding: 10px 28px;
+	margin: 7px 7px;
+	border-radius: 6px;
+	font-size: 20px;
+}
+
+.long input[type="text"]{
+	width: 420px;
+}
+
+.long input[type="password"]{
+	width: 420px;
+}
+
+.long input[type="radio"]{
+	margin-top: 20px;
+	margin-bottom: 20px;
+    /*間を開けたい*/
+}
+
+.textarea label {
+	font-size: 20px;
+	/*太くしたい*/
+}
+
+.select {
+	margin-bottom: 20px;
+}
+
+.textarea a {
+	font-size: 12px;
+	margin-left: 20px;
+}
+
+.contents b {
+	font-size: 12px;
+}
+
+.textarea button {
+	padding: 10px 80px;
+	margin-top: 20px;
+	background-color: #1EB507;
+	color: white;
+	border-radius: 10px;
+}
+
+footer {
+	font-family: sans-serif;
+	float: left;
+	font-size: 14px;
+}
+
+footer p {
+	margin-left: 480px;
+}

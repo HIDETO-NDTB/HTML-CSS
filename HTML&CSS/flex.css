@@ -1,0 +1,43 @@
+.container-1 div,.container-2 div,.container-3 div {
+	border:1px solid black;
+	padding: 10px;
+}
+
+.container-1 {
+	display: flex;
+	flex-direction: row; /*row-reverse|colmu|coimun-reverse */
+}
+
+.box-1{
+	flex: 1;
+	order: 3;
+}
+
+.box-2{
+	flex: 2;
+	order: 2;
+}
+
+.box-3{
+	flex: 1;
+	order: 1;
+}
+
+.container-2 {
+	display: flex;
+	justify-content: center; /*flex-start| flex-end | space-betweem | space-around */
+}
+
+.box{
+	flex-basis:25%;
+}
+
+.container-3 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.c3-box{
+	flex-basis: 25%;
+}

@@ -1,0 +1,45 @@
+h1 {
+	font-family: serif;
+}
+
+table {
+	background-color: #F4F60A;
+}
+
+.yellow {
+	color: blue;
+	font-size: 18px;
+}
+
+.blue {
+	background-color: #88CEF9;
+}
+
+#gray {
+	background-color: #9D989B;
+	color: blue;
+}
+
+#pink {
+	background-color: #F2B9D8;
+	color: blue;
+	font-size: 12px;
+	padding: 50px 20px;
+}
+
+.blue p {
+	color: blue;
+}
+
+.blue li {
+	font-size: 40px;
+	padding: 30px 20px 30px 0;
+}
+
+#gray li {
+	font-size: 18px;
+}
+
+body {
+	background-color: orange;
+}

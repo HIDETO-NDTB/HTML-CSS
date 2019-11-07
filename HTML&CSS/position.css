@@ -1,0 +1,37 @@
+div.Static {
+	position: static;
+	border: 3px solid #F599F1;
+}
+
+div.relative {
+	position: relative;
+	left: 50px;
+	top: 10px;
+	border: 3px solid #F599F1;
+}
+
+div.absolute {
+	position: absolute;
+	top: 300px;
+	right: 0;
+	width: 500px;
+	height: 150px;
+	border: 3px solid #F4D405;
+	background-color: #F599F1;
+}
+
+div.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	border: 3px solid #F599F1;
+	background-color: #F4D405;
+}
+
+div.sticky {
+	position: sticky;
+	top: 0;
+	background-color: #F89C90;
+	border: 3px solid #F009E5;
+}
