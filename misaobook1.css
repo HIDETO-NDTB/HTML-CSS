@@ -1,0 +1,168 @@
+* {
+	box-sizing: border-box;
+	float: none;
+	position: static;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	font-family: sans-serif;
+	background-color: #4B68B2;
+	height: 80px;
+	
+}
+
+header h1 {
+	float: left;
+	color: white;
+	font-size: 40px;
+	padding-left: 370px;
+	margin-right: 120px;
+
+}
+
+.user {
+	float: left;
+	color: white;
+	padding-top: 10px;
+	
+}
+
+.user input {
+	padding: 6px 0;
+	border-radius: 6px;
+	font-size: 15px;
+}
+
+.user button {
+	margin-top: 20px;
+	padding: 7px 7px;
+	font-size: 15px;
+	border-radius: 6px;
+	background-color: #B8F8F4;
+}
+
+.left {
+	width: 550px;
+	height: 550px;
+	position: absolute;
+	top: 50;
+	left: 270px;
+}
+
+.contents {
+	width: 100%;
+	height: 620px;
+	background-color: #EAEDED;
+	font-family: sans-serif;
+}
+
+.right {
+	position: absolute;
+	top: 80px;
+	left: 850px;
+}
+
+.contents h1 {
+	font-size: 40px;
+}
+
+.contents p {
+	font-size: 20px;
+}
+
+.textarea input {
+	padding: 6px 10px;
+	margin: 7px 7px;
+	border-radius: 6px;
+	font-size: 20px;
+}
+
+.short input {
+	width: 200px;
+}
+
+.long input[type="text"]{
+	width: 420px;
+}
+
+.long input[type="password"]{
+	width: 420px;
+}
+
+.long input[type="radio"]{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.textarea label {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.textarea select {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.part {
+	margin-left: 30px;
+}
+
+.textarea a {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.contents b {
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+a:visited {
+	color: #2C78F0;
+}
+
+.contents a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #0E32F5;
+}
+
+.textarea button {
+	padding: 10px 80px;
+	margin-top: 10px;
+	background-color: #5FA36A;
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+footer {
+	height: 50px;
+	font-family: sans-serif;
+	font-size: 14px;
+	margin-left: 25%;
+	background-color: #FBFCFC;
+}
+
+footer p {
+	float: left;
+	padding: 0 18px 40px 18px;
+}
+
+footer a {
+	color: #2C78F0;
+	text-decoration: none;
+}
+
+footer a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #0E32F5;
+}
