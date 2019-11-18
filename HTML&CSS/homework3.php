@@ -64,7 +64,7 @@
     echo "●"." Write a PHP script to redirect a user to a different page."."<br>";
     echo "<br>";
 
-    header ('location: https://en.wikipedia.org/wiki/Japan');
+    header ('location: https://www.google.com/');
 
     echo "●"." Write a PHP program to find whether the given number is odd or even by using ternary operator"."<br>";
     echo "<br>";
@@ -115,8 +115,27 @@
 
     echo "●"." Write a PHP program to compute the sum of the prime numbers less than 100.<br>";
     echo "<br>";
+    
+    $prime = array();
 
-    echo "I have no idea.<br>";
+    for ($x=2;$x<=100;$x++) {
+        $n = 0;
+        for ($y=1;$y<=$x;$y++) {
+            if ($x % $y ==0) {
+                $n++;
+            }
+        }
+        if ($n == 2) {
+            array_push($prime,$x);
+        }
+    }
+
+    echo "<pre>";
+    print_r($prime);
+    echo "</pre>";
+    echo "<br>";
+
+    echo array_sum($prime)."<br>";
     echo "<br>";
 
     echo "●"." Write a PHP program to compute the sum of the digits of a number.<br>";
@@ -134,6 +153,52 @@
     
     echo 'sum_digits of 98765 is ',sum_digits(98765);
     echo "<br>";
+
+    echo "●"." Write a PHP program to check if a given positive integer is a power of two.<br>";
+    echo "<br>";
+
+    function check($x){
+        if(sqrt($x)==2){
+            echo "$x is power of 2<br>";
+        }
+        else {
+            echo "$x is not a given positive integer<br>";
+        }
+    }
+    
+    check(4);
+    echo "<br>";
+
+    echo "●"." Write a PHP program to print the number of prime numbers which are less than or equal to a given integer.<br>";
+    echo "<br>";
+
+    echo "I can't answer it<br>";
+    echo "<br>";
+
+    $prime = array();
+
+    function primeCount($num) {
+        for ($x=2;$x<=$num;$x++) {
+            $n = 0;
+            for ($y=1;$y<=$x;$y++) {
+                if ($x % $y ==0) {
+                    $n++;
+                }
+            }
+            if ($n == 2) {
+                array_push($prime,$x);
+            }
+        }
+        echo count($prime);
+    }
+
+    primeCount(100);
+    echo "<br>";
+
+    echo "●"." Write a PHP program to convert word to digit.<br>";
+    echo "<br>";
+
+    
 
     echo "●"." Write a PHP program to replace a string Python with PHP and Python with PHP in a given string.<br>";
     echo "<br>";
@@ -153,16 +218,18 @@
     echo "●"." Write a program to calculate and print the factorial of a number using a for loop. The factorial of a number is the product of all integers up to and including that number, so the factorial of 4 is 4*3*2*1= 24.<br>";
     echo "<br>";
 
+    echo "I can't answer it<br>";
+    echo "<br>";
+    
     $factrials = array();
     function factorial($x){
-        for ($x=$y;$y>0;$y--){
+        for ($y=$x;$y>=1;$y--) {
             array_push($factrials,$x*$y);
-            print_r($factrials);
         }
+        array_product($factrials);
     }
-    
+
     factorial(4);
-    echo array_sum($factrials)."<br>";
     echo "<br>";
 
     echo "●"." $"."color = array('white', 'green', 'red', 'blue', 'black');
@@ -384,12 +451,18 @@
     echo "<br>";
 
     echo "I have no idea <br>";
+    echo "<br>";
 
-
-
-
+    echo "●"."  Create a simple HTML form and accept the user name and display the name through PHP echo statement.<br>";
+    echo "<br>";
 
 ?>
+
+    <h3>Please input your name:</h3>
+    <input>
+    <input type ="submit" value ="Submit Name">
+    <H4>Hello</H4>
+
     
 </body>
 </html>
